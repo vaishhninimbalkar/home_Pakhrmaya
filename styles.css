@@ -1,0 +1,504 @@
+:root {
+  --background-color: white;
+  --header-color-background: #00662e;
+  --header-color: white;
+
+  --body-h1-color-background: #00662e;
+  --body-h1-color:#fff;
+
+  --header-donate-color: white;
+  --header-donate-color-background: blue;
+
+  --navbar-background: ;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+header {
+  background: var(--header-color-background);
+  color: #fff;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: #3b21a1 3px solid;
+  border-top: #3b21a1 3px solid;
+}
+
+header a {
+  color: var(--header-color);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+}
+
+.hero {
+  background: #e2e2e2;
+  padding: 50px 0;
+  text-align: center;
+}
+ .hero1 {
+  background: #e2e2e2;
+  padding: 50px 0;
+  text-align: center;
+ }
+
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+  overflow: hidden;
+}
+
+.mySlides {
+  display: none;
+}
+
+.mySlides img {
+  width: 100%;
+  height: auto;
+}
+
+.dot-container {
+  text-align: center;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+}
+
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+footer {
+  background: #006625;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.main-header {
+  width: 100%;
+}
+
+.header-h1 {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.radha-h1 {
+  font-size: 1.7rem;
+  font-weight: 900;
+  font-family: math;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.side {
+  flex: 1 1 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+.body-h1 {
+  background-color:var(--body-h1-color-background);
+  font-weight: bold;
+  color:var(--header-color);
+
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 1.25rem;
+  font-family: math;
+}
+
+a img {
+  width: 30px;
+  height: 30px;
+  margin: 0 10px;
+  transition: transform 0.3s;
+}
+
+a img:hover {
+  transform: scale(1.1);
+}
+.main {
+  flex: 1 1 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+/* navigation settings */
+nav {
+  float: right;
+  margin-top: 10px;
+}
+
+nav.navbar > ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+nav.navbar > ul > li {
+  padding: 0 5px 0 5px;
+  margin-right: 10px;
+}
+
+nav.navbar > ul > li > a {
+  color: var(--header-color);
+  background-color: var(--header-color-background);
+
+  border-radius: 10px;
+  text-decoration: none;
+  padding: 5px;
+  display: inline-block;
+}
+
+nav.navbar > ul > li > a.donate-button {
+  color: var(--header-donate-color);
+  background-color: var(--header-donate-color-background);
+}
+
+nav.navbar > ul > li > a:not(.selected):hover {
+  color: var(--header-color-background);
+  background-color: var(--header-color);
+  /* todo:   border-radius: 10px; */
+}
+
+nav.navbar > ul > li > a:hover {
+  color: var(--header-color-background);
+  background-color: var(--header-color);
+}
+
+nav.navbar > ul > li > a.selected {
+  color: var(--header-color-background);
+  background-color: var(--header-color);
+  /* border-bottom:4px solid #fff; */
+}
+
+nav.navbar > ul > li > a.donate-button:hover {
+  /* switch colors background becomes forground */
+  color: var(--header-donate-color-background);
+  background-color: var(--header-donate-color);
+}
+
+/* FORM SETEINGS */
+.form-container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 300px;
+  margin: auto;
+}
+
+form h2 {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+.team-container {
+  text-align: center;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.team-container h1 {
+  margin-bottom: 30px;
+  font-size: 2.5em;
+}
+
+.member-box {
+  display: inline-block;
+  background-color: #fff;
+  width: 220px;
+  height: 220px;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  box-sizing: border-box;
+  flex: 0 1 auto;
+}
+
+.member-box img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+.member-box h2 {
+  margin: 10px 0 5px 0;
+  font-size: 1.2em;
+}
+
+.member-box h3 {
+  margin: 5px 0 10px 0;
+  font-size: 1em;
+  color: #666;
+}
+
+.member-box p {
+  font-size: 0.9em;
+  color: #333;
+}
+
+.team-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.image-box {
+  width: 200px;
+  height: 200px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.background-text h2 {
+  font-size: 2.25rem;
+  margin: 0;
+}
+
+.background-text p {
+  font-size: 1.25rem;
+  margin: 10px 0 0;
+}
+
+.text {
+  position: absolute;
+  bottom: -10%;
+  left: 20px;
+  right: 400px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 0.9375rem;
+  font-family: math;
+}
+
+.slide img {
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+}
+.main-donate {
+  width: 100%;
+}
+.child-donte {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.first-donate-img {
+}
+.second-donate-form {
+}
+
+@media screen and (max-width: 1200px) {
+  .text {
+    bottom: -5%;
+    right: 200px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .text {
+    bottom: 0;
+    right: 100px;
+  }
+
+  .header-h1 {
+    flex-direction: column;
+  }
+
+  .radha-h1 {
+    font-size: 1.5rem;
+  }
+
+  .container {
+    width: 90%;
+  }
+
+  .side {
+    flex: 1 1 100%;
+  }
+
+  .main {
+    flex: 1 1 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  nav ul {
+    text-align: center;
+  }
+
+  nav ul li {
+    display: block;
+    margin-left: 0;
+  }
+
+  .text {
+    bottom: 5%;
+    left: 10px;
+    right: 10px;
+  }
+
+  .body-h1 {
+    font-size: 1.1rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .text {
+    font-size: 0.8rem;
+  }
+
+  .team-container h1 {
+    font-size: 2em;
+  }
+
+  .member-box {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+  }
+
+  .member-box img {
+    width: 80px;
+    height: 80px;
+  }
+
+  .form-container {
+    /* width: 100%;
+        max-width: 100%; */
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .header-h1 {
+    flex-direction: column;
+  }
+
+  .radha-h1 {
+    font-size: 1.2rem;
+  }
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 50px;
+}
+
+.logo h1 {
+  margin: 0 10px;
+  font-size: 24px;
+  font-weight: bold;
+}
+.pakhrmaya-text {
+  font-size: 1.5em; /* Increase font size */
+  font-weight: bold; /* Make the text bold */
+  color: #f27121; /* Set text color to an accent color */
+  text-align: center; /* Center-align the text */
+  text-shadow: 2px 2px 4px rgba(59, 61, 199, 0.3); /* Add a subtle shadow */
+  margin: 5px 0; /* Add some margin above and below */
+  font-family: 'Arial', sans-serif; /* Set a clean, readable font */
+  letter-spacing: 2px; /* Increase spacing between letters */
+}

@@ -1,0 +1,519 @@
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 10px 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 50px;
+}
+
+.logo h1 {
+  margin: 0 10px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background-color: #464ead; /* Dark background color for the navigation */
+    padding: 10px 20px; /* Padding around the navigation */
+    border-radius: 5px; /* Rounded corners for the navigation bar */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+}
+
+.nav li {
+  margin-left: 20px;
+  
+}
+
+.nav a {
+  text-decoration: none;
+  color: #fff;
+}
+.nav a:hover {
+    background-color: #ff6600; /* Accent color on hover */
+    color: #fff; /* Maintain white text color on hover */
+}
+
+/* Optional: Active link styling */
+.nav a.active {
+    background-color: #e55d00; /* Slightly darker shade for active link */
+    color: #fff; /* Maintain white text color */
+}
+.image-container {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+}
+.highlight {
+    color: #ff6600; /* Change to your preferred color */
+    background-color: #f0f0f0; /* Optional background color */
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 2em; /* Adjust font size if needed */
+}
+h1 {
+    color: #ff6600; /* Change the color to your preferred one */
+    background-color: #f0f0f0; /* Optional background color */
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+.background {
+    background-image: url('imagesP/IMG_2992.jpg'); /* Replace 'your-image.jpg' with your actual image file */
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Full height of the viewport */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    color: #fff; /* White text color */
+    text-align: center;
+    width: 100%; /* Full width of the parent container */
+    height: 70%;
+}
+
+.text {
+    background-color: rgba(0, 0, 0, 0.5); 
+    padding: 50px;
+    border-radius: 20px;
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #ff6600; /* Button background color */
+    color: #fff; /* Button text color */
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #252185; /* Darker shade for hover effect */
+}
+.text {
+  width: 100%;
+  max-width: 800px;
+  padding: 20px;
+  text-align: center;
+  font-size: 18px;
+}
+
+
+.container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .card {
+    width: 450px;
+    height: 300px;
+    background-color:  #ff6600;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    overflow: hidden;
+  }
+  
+  .card-image {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+  }
+  
+  .card-content {
+    padding: 20px;
+  }
+  
+  .card-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #fff;
+  }
+  
+  .card-text {
+    font-size: 10px;
+    line-height: 1.5;
+    
+  }
+  
+  
+  
+  .button:hover {
+    background-color: #e75628;
+  }
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.card {
+  background-color:  #e75628;
+ 
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+  width: 400px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.card h2 {
+  margin-top: 10px;
+}
+
+.card p {
+  margin-bottom: 10px;
+}
+
+
+
+/*  */
+.container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .card2 {
+    background-color:  #e75628;
+    
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    width: 400px;
+    
+  }
+  
+  .card2 img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .card2 h2 {
+    margin-top: 10px;
+  }
+  
+  .card2 p {
+    margin-bottom: 10px;
+  }
+  /* Basic styling for the section */
+.hero {
+    padding: 50px 0;
+    background-color: #f4f4f4; /* Light background color for contrast */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    text-align: center;
+}
+
+/* Title styling */
+.hero h2 {
+    font-size: 2.5em;
+    margin-bottom: 40px;
+    color: #333;
+}
+
+/* Team container styling */
+.team-container {
+    display: flex;
+    flex-wrap: wrap; /* Allows items to wrap to the next line */
+    justify-content: space-around; /* Spreads out items with space in between */
+    gap: 20px; /* Space between member boxes */
+}
+
+/* Member box styling */
+.member-box {
+    background-color: #fff; /* White background for each box */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    flex-basis: calc(33.333% - 40px); /* Three boxes per row with space between */
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effects */
+}
+
+.member-box:hover {
+    transform: translateY(-10px); /* Lift up on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Deeper shadow on hover */
+}
+
+/* Image styling */
+.member-box img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%; /* Circular image */
+    margin-bottom: 20px;
+}
+
+/* Member name styling */
+.member-box h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #ff6600; /* Accent color for member name */
+}
+
+/* Member title styling */
+.member-box h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: #777; /* Subdued color for titles */
+}
+
+/* Description styling */
+.member-box p {
+    font-size: 1em;
+    color: #555; /* Mid-tone color for descriptions */
+    line-height: 1.5em;
+}
+/* Gallery section styling */
+.gallery {
+    padding: 50px 0;
+    background-color: #f9f9f9; /* Light background for the gallery */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Title styling */
+.gallery h2 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 40px;
+    color: #333;
+}
+
+/* Grid layout for the gallery */
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three equal-width columns */
+    gap: 20px; /* Space between images */
+}
+
+/* Individual gallery item */
+.gallery-item {
+    overflow: hidden;
+    border-radius: 10px; /* Rounded corners for images */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+
+.gallery-item:hover {
+    transform: scale(1.05); /* Slight zoom on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Deeper shadow on hover */
+}
+.pakhrmaya-text {
+    font-size: 3em; /* Increase font size */
+    font-weight: bold; /* Make the text bold */
+    color: #f27121; /* Set text color to an accent color */
+    text-align: center; /* Center-align the text */
+    text-shadow: 2px 2px 4px rgba(59, 61, 199, 0.3); /* Add a subtle shadow */
+    margin: 20px 0; /* Add some margin above and below */
+    font-family: 'Arial', sans-serif; /* Set a clean, readable font */
+    letter-spacing: 2px; /* Increase spacing between letters */
+}
+.main-donate {
+    width: 100%;
+  }
+  .child-donte {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  /* Section styling */
+#admissions {
+    padding: 50px 20px;
+    background-color: #f4f4f4; /* Light background color for the section */
+}
+
+/* Main container styling */
+.main-donate {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center align items horizontally */
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Child container styling */
+.child-donte {
+    display: flex;
+    flex-wrap: wrap; /* Allows wrapping for responsive design */
+    gap: 20px; /* Space between image and form */
+    align-items: flex-start; /* Align items at the start of the container */
+}
+
+/* First donate image styling */
+.first-donate-img {
+    flex: 1;
+    text-align: center;
+}
+
+.first-donate-img img {
+    max-width: 100%;
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Rounded corners for the image */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Form styling */
+.second-donate-form {
+    flex: 1;
+    background-color: #fff; /* White background for the form */
+    padding: 20px;
+    border-radius: 10px; /* Rounded corners for the form container */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Form heading styling */
+.second-donate-form h2 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Form styling */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Space between form elements */
+}
+
+/* Label styling */
+form label {
+    font-size: 1.1em;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+/* Input and textarea styling */
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd; /* Light border */
+    border-radius: 5px; /* Rounded corners for inputs */
+    font-size: 1em;
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+form textarea {
+    resize: vertical; /* Allows vertical resizing only */
+}
+
+/* Button styling */
+form button {
+    background-color: #ff6600; /* Accent color for button */
+    color: #fff; /* White text color */
+    border: none;
+    border-radius: 5px; /* Rounded corners for button */
+    padding: 10px 20px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+form button:hover {
+    background-color: #e55d00; /* Slightly darker shade on hover */
+}
+
+/* Optional: Additional styling for form-container if needed */
+.form-container {
+    margin-top: 20px;
+}
+
+.logo1 {
+  display: flex;
+  align-items: center;
+}
+
+.logo1 img {
+  height: 30px;
+}
+
+.logo1 h1 {
+  margin: 0 10px;
+  font-size: 24px;
+  font-weight: bold;
+}
+.school-text {
+  font-size: 1.5em; /* Increase font size */
+  font-weight: bold; /* Make the text bold */
+  color:#218838; /* Set text color to an accent color */
+  text-align: center; /* Center-align the text */
+  text-shadow: 2px 2px 4px rgba(59, 61, 199, 0.3); /* Add a subtle shadow */
+  margin: 5px 0; /* Add some margin above and below */
+  font-family: 'Arial', sans-serif; /* Set a clean, readable font */
+  letter-spacing: 2px; /* Increase spacing between letters */
+} 
